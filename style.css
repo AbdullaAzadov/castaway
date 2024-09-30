@@ -50,6 +50,7 @@ a,
 h6 {
     font-size: 17px;
     line-height: 27px;
+    transition: color 0.3s ease;
 }
 
 a.active {

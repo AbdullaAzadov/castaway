@@ -10,14 +10,14 @@
         <header class="header">
             <a href="#"><img src="assets/logo.svg" alt="Castaway" /></a>
             <nav class="header__nav">
-                <a href="#" class="active">Home</a>
-                <a href="#">Episodes</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="#home" onclick="onChangeNav(0)">Home</a>
+                <a href="#episodes" onclick="onChangeNav(1)">Episodes</a>
+                <a href="#" onclick="onChangeNav(2)">About</a>
+                <a href="#" onclick="onChangeNav(3)">Contact</a>
             </nav>
         </header>
         <main>
-            <section class="home">
+            <section class="home" id="home">
                 <img src="assets/home/bg.svg" alt="Podcast" />
                 <div class="home__info">
                     <div class="info__socials_wrapper">
@@ -45,7 +45,7 @@
 
             <section class="episodes">
                 <div class="episodes__header">
-                    <h2>Latest episodes</h2>
+                    <h2 id="episodes">Latest episodes</h2>
                     <button>View all episodes</button>
                 </div>
                 <div class="episodes__cards">
@@ -101,5 +101,6 @@
                 </div>
             </section>
         </main>
+        <script src="main.js"></script>
     </body>
 </html>
