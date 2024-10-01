@@ -12,8 +12,8 @@
             <nav class="header__nav">
                 <a href="#home" onclick="onChangeNav(0)">Home</a>
                 <a href="#episodes" onclick="onChangeNav(1)">Episodes</a>
-                <a href="#" onclick="onChangeNav(2)">About</a>
-                <a href="#" onclick="onChangeNav(3)">Contact</a>
+                <a href="#about" onclick="onChangeNav(2)">About</a>
+                <a href="#contact" onclick="onChangeNav(3)">Contact</a>
             </nav>
         </header>
         <main>
@@ -100,7 +100,109 @@
                     </div>
                 </div>
             </section>
+            <section class="person" id="about">
+                <div class="person__info">
+                    <div class="person__info__arrow"></div>
+                    <h6>Meet your host</h6>
+                    <h1 class="person__name">Jacob Paulaner</h1>
+                    <p class="person__paragraph">
+                        Jacob has a background in audio engineering, and has
+                        been podcasting since the early days.
+                    </p>
+                    <p class="person__paragraph">
+                        He’s here to help you level up your game by sharing
+                        everything he’s learned along the way.
+                    </p>
+                </div>
+                <img src="assets/person/jacob.svg" alt="Jacob" />
+            </section>
+            <section class="contact" id="contact">
+                <div class="contact__info">
+                    <h6>Email Newsletter</h6>
+                    <h1>Subscribe for updates</h1>
+                </div>
+                <form action="" class="contact__form">
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                    />
+                    <button>Submit</button>
+                </form>
+            </section>
+            <section class="reviews">
+                <div class="review">
+                    <img src="assets/reviews/stars.svg" alt="stars" />
+                    <h3>I can’t recommend this podcast enough</h3>
+                    <p class="alpha">Betty Lacey</p>
+                </div>
+                <div class="review">
+                    <img src="assets/reviews/stars.svg" alt="stars" />
+                    <h3>Jacob is the best in the business</h3>
+                    <p class="alpha">Adam Driver</p>
+                </div>
+                <div class="review">
+                    <img src="assets/reviews/stars.svg" alt="stars" />
+                    <h3>A wealth of audio knowledge Marcus Brown</h3>
+                    <p class="alpha">Marcus Brown</p>
+                </div>
+                <div class="review">
+                    <img src="assets/reviews/stars.svg" alt="stars" />
+                    <h3>Every episode is a gem!</h3>
+                    <p class="alpha">Jessica Knowl</p>
+                </div>
+                <div class="review">
+                    <img src="assets/reviews/stars.svg" alt="stars" />
+                    <h3>Whoa whoa, let me take some notes!</h3>
+                    <p class="alpha">Scott Adams</p>
+                </div>
+                <div class="review">
+                    <img src="assets/reviews/stars.svg" alt="stars" />
+                    <h3>
+                        I’ve upped my game considerably since I started
+                        listening
+                    </h3>
+                    <p class="alpha">Steven Blast</p>
+                </div>
+            </section>
+            <footer>
+                <div class="footer__logo">
+                    <a href="#"><img src="assets/logo.svg" alt="Castaway" /></a>
+                    <div class="footer__socials">
+                        <img src="assets/footer/inst.svg" alt="Spotify" />
+                        <img src="assets/footer/x.svg" alt="Spotify" />
+                        <img src="assets/footer/fb.svg" alt="Spotify" />
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#episodes">Episodes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Style Guide</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Credit</a></li>
+                    <li><a href="#">Powered by Azdovv</a></li>
+                    <li><a href="#">Licenses</a></li>
+                </ul>
+                <nav class="info__socials">
+                    <img src="assets/home/spotify.svg" alt="Spotify" />
+                    <img src="assets/home/pocket.svg" alt="Pocket Podcast" />
+                    <img src="assets/home/sound.svg" alt="SoundFlare" />
+                    <img src="assets/home/apple_p.svg" alt="Apple Podcast" />
+                    <img src="assets/home/overcast.svg" alt="Overcast" />
+                </nav>
+            </footer>
         </main>
-        <script src="main.js"></script>
     </body>
 </html>
